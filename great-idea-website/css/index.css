@@ -78,16 +78,17 @@ h1, h2, h3, h4, h5 {
 }
 
 header {
-	border: 5px solid blue;
+
 	width: 100%;
 	height: auto;
 	display: inline-block;
 }
 
-
+.nav {
+	width: 80%;
+	display:inline-block;
+}
 .nav .nav-bar-item {
-
-	border: 5px solid red;
 	text-decoration: none;
 	display: inline-block;
 
@@ -96,37 +97,33 @@ header {
 	width: 150px;
 	height: 50px;
 	text-align: center;
-	color: #D3D3D3;
+	color: gray;
 }
 
 .logo {
 	/*display: inline-block;*/
 	/*needs work*/
 	position: relative;
-	top: 0px;
-	right: 0px;
+	left: 50px;
 
 }
 
-.logo img {
-	/*display: inline-block;*/
-}
 .cta {
 	margin-top: 10%;
-	border: 2px dashed blue;
+
 	width: 100%;
 	display: inline-block;
 }
 
 
 .call-to-action {
-	border: 5px dashed yellow;
+
 	display: inline-block;
 	width: 100%;
 }
 
 .cta-text {
-	border: 2px dashed red;
+
 	font-size: 100px;
 	width: 370px;
 	text-align: center;
@@ -137,7 +134,7 @@ header {
 
 
 .cta-left {
-	border: 2px solid green;
+
 	width: 60%;
 	padding-left:15%;
 	display:inline-block;
@@ -146,26 +143,28 @@ header {
 
 .cta-button {
 	color: gray;
-	border: 2px solid gray;
+
 	text-decoration: none;
 	display: inline-block;
 
 	/* make look like button */
 	padding: 10px;
 	width: 150px;
-	height: 50px;
+	height: 100%;
 	text-align: center;
 	position: relative;
-	right:0px;
+	left: 115px;
 
 
 }
 
 .first-image {
 	display: inline-block;
-	border: 2px solid gray;
+
 	float: right;
 	width: 40%;
+	position: relative;
+	bottom: 40px;
 }
 
 .first-image img {
@@ -174,12 +173,13 @@ header {
 }
 
 .description-container {
-	border: 2px solid gray;
+
 	display: inline-block;
+	margin-bottom: 20px;
 }
 
 .description-first {
-	border: 2px dashed gray;
+
 	display:inline-block;
 	width: 45%;
 	margin-left: 20px;
@@ -194,12 +194,18 @@ header {
 }
 
 .description-second {
-	border: 2px dashed gray;
+
 	display:inline-block;
 	width: 30%;
+	margin-top: 20px;
 	margin-left: 20px;
 
 
+}
+
+.divider {
+	border: 1px solid black;
+	margin: 10px;
 }
 
 footer {
